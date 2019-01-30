@@ -1,7 +1,7 @@
 
 body {
     font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -9,7 +9,7 @@ body {
     display: inline-block;
     width: 100%;
     background-color: white;
-    border-bottom: 1px solid teal;
+    border-bottom: .5px solid teal;
 }
 
 .myname {
@@ -47,6 +47,7 @@ margin-left: 15%;
 .page {
     clear: both;
     background-color: beige;
+    
 }
 
 .divider {
@@ -59,6 +60,7 @@ margin-left: 15%;
 .content {
     display: block;
     position: relative;
+    height: 800px;
     margin-top: -5px;
     margin-left: 15%;
     margin-right: 15%;
@@ -80,10 +82,87 @@ margin-left: 15%;
 
 }
 
-footer {
+
+
+/** Contact form styles **/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+  /** Portfolio Styles **/
+
+  .websitesblock {
+    float: left;
+    position: relative;
+    background-color: gray;
+    width: 33.33%;
+    height: 200px;
+    background-image: url(https://www.telegraph.co.uk/content/dam/technology/2017/08/03/Internet2_trans_NvBQzQNjv4BqJRZdqtQCcB0-hjTaQxsqmtMZZIw9jvU_z2DJKltQ1FE.jpg?imwidth=1400);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline-end: 15px;
+    margin-top: 15px;
+
+  }
+
+  .portfoliosectiontitle {
+    background-color: teal;
+    position: relative;
+    bottom: -137px;
+    width: 100%;
+   padding-top: 15px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+
+  }
+
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .valigntext {
+
+
+    vertical-align: middle;
+  }
+
+
+
+   /** Footer **/
+
+  footer {
     background-color: darkgrey;
-    border-top: 5px solid teal;
+    border-top: .5px solid teal;
     height: 20px;
     text-align: center;
-    
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
