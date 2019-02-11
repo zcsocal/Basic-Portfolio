@@ -258,3 +258,147 @@ input[type=text], select, textarea {
     padding-top: 10px;
     padding-bottom: 5px;
 }
+
+
+
+
+/** ---------------------------Resonsive stuff------------------------- **/
+
+
+@media only screen and (max-width:640px) { 
+
+  .paragraphimages {
+    display: block;
+    float: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+  /**.justify-content-end {
+    -ms-flex-pack: end!important;
+    justify-content: center !important;
+} **/
+.myname {
+  
+  float: right;
+  background-color: teal;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  }
+
+
+.nav {
+  background-color: white;
+  float: none;
+  vertical-align:middle;
+  margin-top: 3%;
+  padding-top: 20px;
+  text-align: center;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.navlinks {
+  padding-top: 10px;
+  height: 100px;
+  
+ 
+}
+
+.websitesblock {
+ 
+  float: none;
+  background-color: gray;
+  width:100%;
+  height: 200px;
+  background-image: url(https://www.telegraph.co.uk/content/dam/technology/2017/08/03/Internet2_trans_NvBQzQNjv4BqJRZdqtQCcB0-hjTaQxsqmtMZZIw9jvU_z2DJKltQ1FE.jpg?imwidth=1400);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-inline-end: 15px;
+  margin-top: 15px;
+
+}
+
+
+.websitesblock2 {
+  
+  float: none;
+  background-color: gray;
+  width:100%;
+  height: 200px;
+  background-image: url(http://zakariahclark.com/wp-content/uploads/2015/03/BRCC-Infographic-Sample2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-inline-end: 15px;
+  margin-top: 15px;
+
+}
+
+.websitesblock3 {
+  float: none;
+  position: relative;
+  background-color: gray;
+  width:100%;
+  height: 200px;
+  background-image: url(http://zakariahclark.com/wp-content/uploads/2015/03/ART-Infographic-Sample.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-inline-end: 15px;
+  margin-top: 15px;
+
+}
+
+.websitesblock4 {
+  float: none;
+  position: relative;
+  background-color: gray;
+  width:100%;
+  height: 200px;
+  background-image: url(http://zakariahclark.com/wp-content/uploads/2015/03/HopWebslide_Sep_2015.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-inline-end: 15px;
+  margin-top: 15px;
+
+}
+
+.websitesblock5 {
+  float: none;
+  position: relative;
+  background-color: gray;
+  width:100%;
+  height: 200px;
+  background-image: url(http://zakariahclark.com/wp-content/uploads/2015/03/Trio-BRasileiro-HL-AD-4.7x4.7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-inline-end: 15px;
+  margin-top: 15px;
+
+}
+
+.content {
+  display: block;
+  position: relative;
+  height: 1200px;
+  margin-top: -5px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 250px;
+  background-color: white;
+  padding: 15px;
+}
+
+}
+
